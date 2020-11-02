@@ -4,7 +4,7 @@
 
 <?php
 $score = 0;
-echo $score;
+echo $score; 
 ?>
 
 </body>
