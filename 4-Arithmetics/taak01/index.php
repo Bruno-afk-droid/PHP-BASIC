@@ -3,17 +3,14 @@
 <body>
 
 <?php
-    $variabele1 = 10;
-    $variabele2 = "hallo";
+    $var1 = 10;
+    $var2 = 5;
 
-    var_dump($variabele1 == $variabele2);
-    var_dump($variabele1 === $variabele2);
-    var_dump($variabele1 != $variabele2);
-    var_dump($variabele1 > $variabele2);
-    var_dump($variabele1 < $variabele2);
-    var_dump($variabele1 <> $variabele2);
-    var_dump($variabele1 >= $variabele2);
-    var_dump($variabele1 <= $variabele2);
+	echo $var1 + $var2;
+    echo $var1 - $var2;
+    echo $var1 * $var2;
+    echo $var1 / $var2;
+
 ?>
 
 </body>
