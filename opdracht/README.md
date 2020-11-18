@@ -36,7 +36,7 @@ Voor deze opdracht moet je:
 * Alle code moet volgens de juiste syntax zijn geschreven.
 * De volgende elementen moeten terug komen in de code: _variabelen, datatype, string operators, indexed array, comparison operators, conditional statements, logical operators, include en require en functies_
 * Op de homepagina (`index.php`) moet je het datatype van een ingevoerde waarde kunnen opvragen.  
-_Een deel van de code is al voor je ingevuld, jij moet de ontbrekende code aanvullen_ 
+_Een groot deel van de code is al voor je ingevuld, jij moet de ontbrekende code aanvullen_ 
 * Op de producten (`producten.php`) moet je een lijst van 10 producten en hun prijs laten zien.
   * De producten moeten uit een array komen
   * De prijzen (in decimalen) moeten uit een array komen 

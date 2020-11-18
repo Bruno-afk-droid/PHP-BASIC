@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <?php require('.\includes\functions.php'); ?>
+    <?php require('.\includes\menu.php'); ?>
     <title>Title</title>
   </head>
   <body>
@@ -34,9 +36,10 @@
     <p>Vul je leeftijd in voor korting</p>
     <p><label>leeftijd: </label><input type="text" name="leeftijd"></p><!-- dit laten staan! -->
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->
-    <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:</p>
-    <p>je bent <?php getAge(); ?> je korting is: </p>
-
+    <p>voor <?php echo getAmount(); ?> x het product: <?php echo getProductNr(); ?> betaal je: <?php echo getProductPrice(); ?></p>
+    <p>je bent <?php echo getAge(); ?> je korting is: <?php echo getAgeSale(); ?> </p>
+    <p>totaal moet je <?php echo getProductPrice()-getAgeSale()?> euro betalen</p>
     </form><!-- dit laten staan! -->
+    <?php include('.\includes\footer.php'); ?>
   </body>
 </html>
